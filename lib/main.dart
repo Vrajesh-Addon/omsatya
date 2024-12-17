@@ -24,7 +24,7 @@ Future<void> main() async {
       projectId: "om-satya-exim-pvt-ltd", //paste your project id here
     ),
   );
-  await PushNotificationService.instance.initialize();
+  // await PushNotificationService.instance.initialize();
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
