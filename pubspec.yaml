@@ -1,0 +1,104 @@
+name: omsatya
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.1+4
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  bot_toast: ^4.1.3
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  validators: ^3.0.0
+  flutter_spinkit: ^5.2.1
+  fl_chart: ^0.68.0
+  dropdown_button2: ^2.3.9
+  multi_dropdown: ^3.0.1
+  shimmer: ^3.0.0
+  intl: ^0.19.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.0
+  permission_handler: ^11.3.1
+  syncfusion_flutter_datagrid: ^26.2.10
+  data_table_2: ^2.5.15
+  flutter_native_splash: ^2.4.1
+  image_picker: ^1.1.2
+  video_thumbnail: ^0.5.3
+  path_provider: ^2.1.4
+  record: ^5.1.2
+  path: ^1.9.0
+  just_audio: ^0.9.40
+  audio_session: ^0.1.21
+  pdf: ^3.11.1
+  printing: ^5.13.1
+  video_player: ^2.9.1
+  rxdart: ^0.27.7
+  flutter_contacts: ^1.1.9+2
+  change_app_package_name: ^1.4.0
+  video_compress: ^3.1.3
+  flutter_image_compress: ^2.3.0
+  flutter_time_picker_spinner: ^2.0.0
+  file_picker: ^8.1.4
+
+  # Firebase Package
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.1.2
+  flutter_local_notifications: ^17.2.2
+  flutter_ringtone_player: ^4.0.0+3
+
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash_screen.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/splash_screen.png
+    android: true
+    ios: true
